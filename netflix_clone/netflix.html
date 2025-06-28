@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+    <div class="bg-container">
+        <div class="home-container">
+            <nav>
+                <img src="netflix-logo.png" class="nav-logo" alt="Logo">
+                <div class="nav-content">
+                    <select name="language" class="nav-lang" id="language">
+                        <option value="english">English</option>
+                        <option value="tamil">தமிழ்</option>
+                        <option value="hindi">हिन्दी</option>
+                    </select>
+                    <button class="nav-btn">Sign In</button>
+                </div>
+            </nav>
+
+            <div class="hero-section">
+                <h1 class="hero-section-head">Unlimited movies, TV <br> shows and more</h1>
+                <h3 class="hero-section-head2">Starts at ₹149. Cancel at any time.</h3>
+                <p class="hero-section-description">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="inner-hero-section">
+                    <input class="hero-section-input" type="text" placeholder="Email address">
+                    <button class="hero-section-btn">Get Started &gt; </button>
+                </div>
+            </div>
+
+            <div class="box">
+            </div>
+        </div>
+
+        <div class="trending-now-section">
+            <h1 class="tn-section-head">Trending Now</h1>
+            <div class="movies-section">
+
+                <div class="movie-card">
+                    <div>
+                        
+                        <div class="movie-image-container">
+                            <img src="retro.jpg" alt="hit-3" class="movie-image" data-toggle="modal" data-target="#exampleModal">
+                        </div>
+
+                
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content modal-detailed-view">
+                                    <!--<div class="modal-header">
+                                        <h5 class="modal-title thanking-customer-section-voucher-head mt-2" id="exampleModalLabel">Gift Voucher</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>-->
+
+                                    <div class="modal-body p-0">
+                                        <img class="w-10 modal-body-img" src="retro_detailed.png" alt="" >
+                                        <div class="modal-body-content">
+                                            <p>2025</p>
+                                            <p>U/A 16+</p>
+                                            <p>Movie</p>
+                                            <p>Action</p>
+                                            <p>Dramas</p>
+                                        </div>
+                                        <p class="modal-body-description">Raised by a criminal father, Paari leaves behind his adoptive family to build a quiet life with his love, Rukmini. But his violent past won't let him go.</p>
+                                        <button class="modal-body-btn">Get Started &gt; </button>
+                                    </div>
+                                    <!--<div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                </div>
+
+                <div class="movie-card">
+                    <img src="squid-game.jpg" alt="hit-3" class="movie-image">
+                </div>
+
+                <div class="movie-card">
+                    <img src="money-heist.jpg" alt="hit-3" class="movie-image">
+                </div>
+
+                <div class="movie-card">
+                    <img src="leo.png" alt="hit-3" class="movie-image">
+                </div>
+
+                <div class="movie-card">
+                    <img src="hitThirdCase.png" alt="hit-3" class="movie-image">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="more-reasons-section">
+
+            <h1 class="more-reasons-head">More reasons to watch</h1>
+
+            <div class="more-reasons-content">
+                <div class="more-reasons-card">
+                    <h1 class="more-reasons-card-head">Enjoy on your TV</h1>
+                    <p class="more-reasons-card-description">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+                
+                <div class="more-reasons-card">
+                    <h1 class="more-reasons-card-head">Download your shows to watch offline</h1>
+                    <p class="more-reasons-card-description">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+
+                <div class="more-reasons-card">
+                    <h1 class="more-reasons-card-head">Watch everywhere</h1>
+                    <p class="more-reasons-card-description">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+
+                <div class="more-reasons-card">
+                    <h1 class="more-reasons-card-head">Create profiles for kids</h1>
+                    <p class="more-reasons-card-description">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="faq-section">
+            <h1 class="faq-section-head">Frequently Asked Questions</h1>
+            <div class="faq-section-content">
+                <div class="faq-card">
+                    <h1 class="faq-card-head">What is Netflix?</h1>
+                </div>
+
+                <div class="faq-card">
+                    <h1 class="faq-card-head">How much does Netflix cost?</h1>
+                    
+                </div>
+
+                <div class="faq-card">
+                    <h1 class="faq-card-head">Where can I watch?</h1>
+                </div>
+
+                <div class="faq-card">
+                    <h1 class="faq-card-head">How do I cancel?</h1>
+                </div>
+
+                <div class="faq-card">
+                    <h1 class="faq-card-head">What can i watch on Netflix ?</h1>
+                </div>
+
+                <div class="faq-card">
+                    <h1 class="faq-card-head">Is Netflix good for kids ?</h1>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="mid-section">
+            <p class="mid-section-description">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="mid-section-content">
+                <input class="mid-section-input" type="text" placeholder="Email address">
+                <button class="mid-section-btn">Get Started &gt; </button>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <p class="footer-section-description">Questions? Call <a href="" style="color: grey;">000-800-919-1743</a> </p>
+            <div class="links-section">
+                <div class="links-container">
+                    <a href="">FAQ</a>
+                    <a href="">Investor Relations</a>
+                    <a href="">Privacy</a>
+                    <a href="">Speed Test</a>
+                </div>
+
+                <div class="links-container">
+                    <a href="">FAQ</a>
+                    <a href="">Investor Relations</a>
+                    <a href="">Privacy</a>
+                    <a href="">Speed Test</a>
+                </div>
+
+                <div class="links-container">
+                    <a href="">FAQ</a>
+                    <a href="">Investor Relations</a>
+                    <a href="">Privacy</a>
+                    <a href="">Speed Test</a>
+                </div>
+
+                <div class="links-container">
+                    <a href="">FAQ</a>
+                    <a href="">Investor Relations</a>
+                    <a href="">Privacy</a>
+                    <a href="">Speed Test</a>
+                </div>
+            </div>
+            <select name="language" class="nav-lang-footer" id="language">
+                <option value="english">English</option>
+                <option value="tamil">தமிழ்</option>
+                <option value="hindi">हिन्दी</option>
+            </select>
+            <p class="footer-section-end">Netflix India</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+
